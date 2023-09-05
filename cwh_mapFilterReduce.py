@@ -51,7 +51,14 @@ print(newnewl)
 #NOTE: reduce function must be imported
 
 
+numbers = [1,2,3,4,5]
+
 from functools import reduce
 
+def mySum(x,y):
+    return x + y
 
+sum = reduce(mySum, numbers)
 
+#Print the sum
+print(sum)
