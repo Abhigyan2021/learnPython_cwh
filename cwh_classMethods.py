@@ -58,3 +58,5 @@ string = "John-16000"
 e2 = Employee2.fromStr(string)
 print(e2.name)
 print(e2.salary) 
+print(type(e2.name))
+print(type(e2.salary))
