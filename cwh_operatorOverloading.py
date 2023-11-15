@@ -18,7 +18,7 @@ class Vector:
         return Vector(self.i + x.i, self.j + x.j, self.k + x.k)
 
 
-#There are different __operator__ which may be used to overload different arithmetic operators
+#There are different __operator__ (dunder methods) which may be used to overload different arithmetic operators
 #Such as __add__ overloads '+' operator
 
 v1 = Vector(3,5,6)
